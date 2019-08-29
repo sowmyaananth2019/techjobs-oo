@@ -9,6 +9,7 @@ import org.launchcode.models.data.JobData;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.ArrayList;
+import org.springframework.validation.Errors;
 
 /**
  * Created by LaunchCode

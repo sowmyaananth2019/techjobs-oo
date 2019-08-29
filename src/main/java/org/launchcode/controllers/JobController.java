@@ -47,7 +47,7 @@ public class JobController {
 
         if (errors.hasErrors()) {
             model.addAttribute(jobForm);
-            return "new-form";
+            return "new-job";
         }
         String name = jobForm.getName();
         Employer employer = jobData.getEmployers().findById(jobForm.getEmployerId());
